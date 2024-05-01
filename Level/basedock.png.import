@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbm3cypbfraoy"
-path="res://.godot/imported/dock.png-28efd7566a74c96c33495aaf570340b7.ctex"
+path="res://.godot/imported/basedock.png-3dd4c9211d25e52ebaa76b8a1f015a5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Level/dock.png"
-dest_files=["res://.godot/imported/dock.png-28efd7566a74c96c33495aaf570340b7.ctex"]
+source_file="res://Level/basedock.png"
+dest_files=["res://.godot/imported/basedock.png-3dd4c9211d25e52ebaa76b8a1f015a5a.ctex"]
 
 [params]
 

@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714539960
+::res://::1714541668
 Blob.gd::GDScript::-1::1714453347::0::1::::<>RigidBody2D<>::
-blob.tscn::PackedScene::3947043479700700136::1714539960::0::1::::<><>::res://Blob.gd<>uid://bfdrgl00omwri::::res://Player/Parrot.png
+blob.tscn::PackedScene::3947043479700700136::1714541413::0::1::::<><>::res://Blob.gd<>uid://bfdrgl00omwri::::res://Player/Parrot.png
 export_presets.cfg::TextFile::-1::1714442261::0::1::::<><>::
 test-level.tscn::PackedScene::3460911653163319739::1714447240::0::1::::<><>::uid://dco8ovm1fs5r8::::res://Level/Tile-Sets (64-64).png<>uid://2kikwksg5ds4::::res://Player/player.tscn
 ::res://addons/::1714445881
@@ -12,15 +12,24 @@ THIRDPARTY.md::TextFile::-1::1714445882::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1714445882
 ::res://addons/godot-git-plugin/macos/::1714445882
 ::res://addons/godot-git-plugin/win64/::1714539214
-::res://Level/::1714540082
+::res://Level/::1714541668
 backgroundMickeyMania_steamboat_bg.png::CompressedTexture2D::6111844502733571988::1714539604::1714539830::1::::<><>::
 BackgroundWithWatermickeymania_wharf_bg-bw.png::CompressedTexture2D::5672107677135229068::1714539697::1714539830::1::::<><>::
-Base-Level.tscn::PackedScene::78887218767015685::1714539960::0::1::::<><>::uid://dco8ovm1fs5r8::::res://Level/Tile-Sets (64-64).png<>uid://2kikwksg5ds4::::res://Player/player.tscn
+Base-Level.tscn::PackedScene::78887218767015685::1714541668::0::1::::<><>::uid://dbm3cypbfraoy::::res://Level/basedock.png<>uid://5nenj7ia65it::::res://Level/boxPhysics.png<>uid://2kikwksg5ds4::::res://Player/player.tscn<>uid://o5sxwuqjg62s::::res://Level/dock3.png<>uid://2s6f2giifyu2::::res://Level/dock4.png<>uid://be0vrrtwdlc03::::res://Level/dock5.png
+basedock.png::CompressedTexture2D::7255928358936579116::1714540082::1714541652::1::::<><>::
 Boatmickeymania_steamboat_wharf-pal.png::CompressedTexture2D::6571393038348846142::1714539658::1714539831::1::::<><>::
-dock.png::CompressedTexture2D::7255928358936579116::1714540082::1714540089::1::::<><>::
+boxPhysics.png::CompressedTexture2D::2132768825744207507::1714540698::1714541669::1::::<><>::
+dock3.png::CompressedTexture2D::1045710309832913508::1714540707::1714540819::1::::<><>::
+dock4.png::CompressedTexture2D::1934150161318914635::1714540716::1714540819::1::::<><>::
+dock5.png::CompressedTexture2D::2720091840693464190::1714540725::1714540819::1::::<><>::
+dock6.png::CompressedTexture2D::5167853554573427647::1714540743::1714540819::1::::<><>::
+dock7.png::CompressedTexture2D::5649305209618823459::1714540756::1714540819::1::::<><>::
+dock8.png::CompressedTexture2D::2883237713018544205::1714540765::1714540819::1::::<><>::
+dock9.png::CompressedTexture2D::270139934896851392::1714540774::1714540819::1::::<><>::
+dock10.png::CompressedTexture2D::2443223971559838966::1714540788::1714540819::1::::<><>::
 Tile-Sets (64-64).png::CompressedTexture2D::7330570811504918139::1714446683::1714446786::1::::<><>::
 ::res://Level/test-level/::1714447225
-::res://Player/::1714539960
+::res://Player/::1714541413
 0.png::CompressedTexture2D::1356196164442408392::1714449811::1714449960::1::::<><>::
 1.png::CompressedTexture2D::1159850326368629945::1714449818::1714449960::1::::<><>::
 2.png::CompressedTexture2D::6579588644454169325::1714449826::1714449960::1::::<><>::
@@ -39,7 +48,7 @@ Mickey.png::CompressedTexture2D::2835506518403251794::1714450958::1714451307::1:
 mickeyIdle.png::CompressedTexture2D::6821239406689181673::1714450536::1714450590::1::::<><>::
 Parrot.png::CompressedTexture2D::2744601556317955522::1714450972::1714451307::1::::<><>::
 player.gd::GDScript::-1::1714442359::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1916247321437439005::1714539960::0::1::::<><>::res://Player/player.gd<>uid://lpjil5ewkuty::::res://Player/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Mickey2.png<>uid://dvi2y02xpnef8::::res://Player/Mickey3.png<>uid://0a36nmt4pb4c::::res://Player/Mickey4.png<>uid://dh7c05sv8ok68::::res://Player/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Mickey6.png
+player.tscn::PackedScene::1916247321437439005::1714541413::0::1::::<><>::res://Player/player.gd<>uid://lpjil5ewkuty::::res://Player/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Mickey2.png<>uid://dvi2y02xpnef8::::res://Player/Mickey3.png<>uid://0a36nmt4pb4c::::res://Player/Mickey4.png<>uid://dh7c05sv8ok68::::res://Player/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Mickey6.png
 TaterTot.png::CompressedTexture2D::6882935235703637880::1714450966::1714451307::1::::<><>::
 tilesets.png::CompressedTexture2D::661958742579942621::1714443940::1714451204::1::::<><>::
 ::res://Steam Boat Willy Platformer Game/::1714442261
