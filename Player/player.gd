@@ -57,6 +57,8 @@ func player_jump(delta):
 		velocity.y = Jump  
 		current_state = State.Jump
 		
+		#if statement for to make jump limited 
+		
 		#Honestly dont really need this, this is supposed to make the run and jump longer but I dont see a difference 
 	#if !is_on_floor() and current_state == State.Jump:
 		#var direction = Input.get_axis("move_left", "move_right")
