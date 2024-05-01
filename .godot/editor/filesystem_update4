@@ -1,6 +1,3 @@
-res://Level/Base-Level.tscn
-res://Level/test-level/test-level.tscn
-res://test-level.tscn
 res://Player/player.tscn
-res://Blob.gd
+res://Level/Base-Level.tscn
 res://blob.tscn
