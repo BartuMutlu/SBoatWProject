@@ -1,16 +1,37 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714442734
+::res://::1714451204
 export_presets.cfg::TextFile::-1::1714442261::0::1::::<><>::
-::res://Level/::1714442359
-Base-Level.tscn::PackedScene::78887218767015685::1714442359::0::1::::<><>::uid://ci0ioyxcdckkj::::res://tileset/game_tile_set_1.png<>uid://2kikwksg5ds4::::res://Player/player.tscn
-::res://Level/test-level/::1713668557
-test-level.tscn::PackedScene::3460911653163319739::1713668557::0::1::::<><>::uid://ci0ioyxcdckkj::::res://tileset/game_tile_set_1.png<>uid://2kikwksg5ds4::::res://Player/player.tscn
-::res://Player/::1714442359
+test-level.tscn::PackedScene::3460911653163319739::1714447240::0::1::::<><>::uid://dco8ovm1fs5r8::::res://Level/Tile-Sets (64-64).png<>uid://2kikwksg5ds4::::res://Player/player.tscn
+::res://addons/::1714445881
+::res://addons/godot-git-plugin/::1714445882
+git_plugin.gdextension::GDExtension::-1::1714445881::0::1::::<><>::
+plugin.cfg::TextFile::-1::1714445882::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1714445882::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1714445882
+::res://addons/godot-git-plugin/macos/::1714445882
+::res://addons/godot-git-plugin/win64/::1714445882
+::res://Level/::1714451204
+Base-Level.tscn::PackedScene::78887218767015685::1714451121::0::1::::<><>::uid://dco8ovm1fs5r8::::res://Level/Tile-Sets (64-64).png<>uid://2kikwksg5ds4::::res://Player/player.tscn
+Tile-Sets (64-64).png::CompressedTexture2D::7330570811504918139::1714446683::1714446786::1::::<><>::
+::res://Level/test-level/::1714447225
+::res://Player/::1714451302
+0.png::CompressedTexture2D::1356196164442408392::1714449811::1714449960::1::::<><>::
+1.png::CompressedTexture2D::1159850326368629945::1714449818::1714449960::1::::<><>::
+2.png::CompressedTexture2D::6579588644454169325::1714449826::1714449960::1::::<><>::
+3.png::CompressedTexture2D::2348831244557837238::1714449813::1714449960::1::::<><>::
+4.png::CompressedTexture2D::3241671432575684147::1714449820::1714449960::1::::<><>::
+5.png::CompressedTexture2D::1108717182302592731::1714449807::1714449960::1::::<><>::
+6.png::CompressedTexture2D::4260256733652351440::1714449816::1714449960::1::::<><>::
+7.png::CompressedTexture2D::4278554646323250828::1714449823::1714449960::1::::<><>::
+Mickey.png::CompressedTexture2D::2835506518403251794::1714450958::1714451307::1::::<><>::
+mickeyIdle.png::CompressedTexture2D::6821239406689181673::1714450536::1714450590::1::::<><>::
+Parrot.png::CompressedTexture2D::2744601556317955522::1714450972::1714451307::1::::<><>::
 player.gd::GDScript::-1::1714442359::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1916247321437439005::1714442359::0::1::::<><>::res://Player/player.gd<>uid://7hulg0c6b10r::::res://tileset/player-idle.png<>uid://bnrva0c2anjks::::res://tileset/player-jump.png<>uid://bfyub08sovvw6::::res://tileset/player-run.png
+player.tscn::PackedScene::1916247321437439005::1714451121::0::1::::<><>::res://Player/player.gd<>uid://c4gi202ckkpnd::::res://Player/mickeyIdle.png<>uid://tk7l8x7ragc3::::res://Player/0.png<>uid://qr3thvh2ywcn::::res://Player/1.png<>uid://c00g4moileqc0::::res://Player/2.png<>uid://8p1538uqjde1::::res://Player/3.png<>uid://bmgj4cihpl5at::::res://Player/4.png<>uid://p2cn676acuxn::::res://Player/5.png<>uid://b1xx2nx6lsmb5::::res://Player/6.png<>uid://b17tf1osuju1a::::res://Player/7.png
+TaterTot.png::CompressedTexture2D::6882935235703637880::1714450966::1714451307::1::::<><>::
+tilesets.png::CompressedTexture2D::661958742579942621::1714443940::1714451204::1::::<><>::
 ::res://Steam Boat Willy Platformer Game/::1714442261
-::res://tileset/::1714442361
-icon.svg::CompressedTexture2D::644053404181130101::1714442361::1714442734::1::::<><>::
+::res://tileset/::1714449398
 player-idle.png::CompressedTexture2D::2261727978176316611::1714442361::1714442734::1::::<><>::
 player-jump.png::CompressedTexture2D::3335246447055274578::1713664288::1714442734::1::::<><>::
 player-run.png::CompressedTexture2D::2788127458529627879::1714442361::1714442734::1::::<><>::
