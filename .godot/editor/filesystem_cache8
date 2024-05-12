@@ -1,21 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714541668
-Blob.gd::GDScript::-1::1714453347::0::1::::<>RigidBody2D<>::
-blob.tscn::PackedScene::3947043479700700136::1714541413::0::1::::<><>::res://Blob.gd<>uid://bfdrgl00omwri::::res://Player/Parrot.png
-export_presets.cfg::TextFile::-1::1714442261::0::1::::<><>::
+::res://::1714796682
+.CRT::X509Certificate::-1::1714785373::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1714786077::0::1::::<><>::
+font.tres::Theme::4692908142734650620::1714794487::0::1::::<><>::uid://8cxb8nch4s1p::::res://Main Menu/MonkeyFingersNF.ttf
 test-level.tscn::PackedScene::3460911653163319739::1714447240::0::1::::<><>::uid://dco8ovm1fs5r8::::res://Level/Tile-Sets (64-64).png<>uid://2kikwksg5ds4::::res://Player/player.tscn
-::res://addons/::1714445881
-::res://addons/godot-git-plugin/::1714445882
+::res://addons/::1714781637
+::res://addons/godot-git-plugin/::1714781638
 git_plugin.gdextension::GDExtension::-1::1714445881::0::1::::<><>::
 plugin.cfg::TextFile::-1::1714445882::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1714445882::0::1::::<><>::
-::res://addons/godot-git-plugin/linux/::1714445882
-::res://addons/godot-git-plugin/macos/::1714445882
-::res://addons/godot-git-plugin/win64/::1714539214
-::res://Level/::1714541668
+::res://addons/godot-git-plugin/linux/::1714781637
+::res://addons/godot-git-plugin/macos/::1714781638
+::res://addons/godot-git-plugin/win64/::1714796673
+::res://Credits/::1714783887
+Control.gd::GDScript::-1::1714783386::0::1::::<>Control<>::
+Credits.tscn::PackedScene::5710011836960481448::1714783612::0::1::::<><>::uid://vrtix0h8pcn4::::res://Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>res://Credits/Control.gd<>uid://8cxb8nch4s1p::::res://Main Menu/MonkeyFingersNF.ttf<>uid://bmexev0x6cq0l::::res://font.tres
+::res://Enemies/::1714785027
+blob.tscn::PackedScene::8940467525031363453::1714706438::0::1::::<><>::uid://bfdrgl00omwri::::res://Player/Parrot.png
+Tater Tot.gd::GDScript::-1::1714703105::0::1::::<>CharacterBody2D<>::
+Tater Tot.tscn::PackedScene::6823559947914785856::1714785027::0::1::::<><>::res://Enemies/Tater Tot.gd<>uid://c5ce65aiqv3gu::::res://Player/TaterTot.png
+::res://HowToPlay/::1714783887
+HowToPlay.tscn::PackedScene::4019666511146948203::1714783386::0::1::::<><>::uid://8cxb8nch4s1p::::res://Main Menu/MonkeyFingersNF.ttf<>uid://vrtix0h8pcn4::::res://Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>res://HowToPlay/HTPControl.gd<>uid://bmexev0x6cq0l::::res://font.tres
+HTPControl.gd::GDScript::-1::1714781087::0::1::::<>Control<>::
+::res://Level/::1714795436
 backgroundMickeyMania_steamboat_bg.png::CompressedTexture2D::6111844502733571988::1714539604::1714539830::1::::<><>::
 BackgroundWithWatermickeymania_wharf_bg-bw.png::CompressedTexture2D::5672107677135229068::1714539697::1714539830::1::::<><>::
-Base-Level.tscn::PackedScene::78887218767015685::1714541668::0::1::::<><>::uid://dbm3cypbfraoy::::res://Level/basedock.png<>uid://5nenj7ia65it::::res://Level/boxPhysics.png<>uid://2kikwksg5ds4::::res://Player/player.tscn<>uid://o5sxwuqjg62s::::res://Level/dock3.png<>uid://2s6f2giifyu2::::res://Level/dock4.png<>uid://be0vrrtwdlc03::::res://Level/dock5.png
+Base-Level.gd::GDScript::-1::1714793030::0::1::::<>Node2D<>::
+Base-Level.tscn::PackedScene::78887218767015685::1714795436::0::1::::<><>::uid://dbm3cypbfraoy::::res://Level/basedock.png<>res://Level/Base-Level.gd<>uid://5nenj7ia65it::::res://Level/boxPhysics.png<>uid://2kikwksg5ds4::::res://Player/player.tscn<>uid://o5sxwuqjg62s::::res://Level/dock3.png<>uid://2s6f2giifyu2::::res://Level/dock4.png<>uid://be0vrrtwdlc03::::res://Level/dock5.png<>uid://cm2u1xfkprvuy::::res://Level/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://c4hnbg6woa2hg::::res://Enemies/Tater Tot.tscn<>uid://btqh1pnvvh833::::res://Pause Menu/PauseMenu.tscn
 basedock.png::CompressedTexture2D::7255928358936579116::1714540082::1714541652::1::::<><>::
 Boatmickeymania_steamboat_wharf-pal.png::CompressedTexture2D::6571393038348846142::1714539658::1714539831::1::::<><>::
 boxPhysics.png::CompressedTexture2D::2132768825744207507::1714540698::1714541669::1::::<><>::
@@ -27,9 +38,19 @@ dock7.png::CompressedTexture2D::5649305209618823459::1714540756::1714540819::1::
 dock8.png::CompressedTexture2D::2883237713018544205::1714540765::1714540819::1::::<><>::
 dock9.png::CompressedTexture2D::270139934896851392::1714540774::1714540819::1::::<><>::
 dock10.png::CompressedTexture2D::2443223971559838966::1714540788::1714540819::1::::<><>::
+Tater Tot.gd::GDScript::-1::1714703112::0::1::::<>CharacterBody2D<>::
 Tile-Sets (64-64).png::CompressedTexture2D::7330570811504918139::1714446683::1714446786::1::::<><>::
-::res://Level/test-level/::1714447225
-::res://Player/::1714541413
+::res://Main Menu/::1714784022
+BackgroundWithWatermickeymania_wharf_bg-bw.png::CompressedTexture2D::1510229294451401351::1714779783::1714783893::1::::<><>::
+icon.svg::CompressedTexture2D::263567389303774272::1714706970::1714783893::1::::<><>::
+Main Menu Control.gd::GDScript::-1::1714784022::0::1::::<>Control<>::
+MainMenu.tscn::PackedScene::8929200613769872306::1714783386::0::1::::<><>::res://Main Menu/Main Menu Control.gd<>uid://vrtix0h8pcn4::::res://Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://8cxb8nch4s1p::::res://Main Menu/MonkeyFingersNF.ttf<>uid://bmexev0x6cq0l::::res://font.tres
+MonkeyFingersNF.ttf::FontFile::2321760625645120675::1365189158::1714783893::1::::<><>::
+::res://Pause Menu/::1714795449
+PauseMenu.gd::GDScript::-1::1714795435::0::1::::<>Control<>::
+PauseMenu.gdshader::Shader::-1::1714795449::0::1::::<><>::
+PauseMenu.tscn::PackedScene::3753511015386796096::1714795435::0::1::::<><>::res://Pause Menu/PauseMenu.gd<>res://Pause Menu/PauseMenu.gdshader<>uid://8cxb8nch4s1p::::res://Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
+::res://Player/::1714791796
 0.png::CompressedTexture2D::1356196164442408392::1714449811::1714449960::1::::<><>::
 1.png::CompressedTexture2D::1159850326368629945::1714449818::1714449960::1::::<><>::
 2.png::CompressedTexture2D::6579588644454169325::1714449826::1714449960::1::::<><>::
@@ -47,12 +68,13 @@ Mickey6.png::CompressedTexture2D::7390508685402264523::1714539317::1714539407::1
 Mickey.png::CompressedTexture2D::2835506518403251794::1714450958::1714451307::1::::<><>::
 mickeyIdle.png::CompressedTexture2D::6821239406689181673::1714450536::1714450590::1::::<><>::
 Parrot.png::CompressedTexture2D::2744601556317955522::1714450972::1714451307::1::::<><>::
-player.gd::GDScript::-1::1714442359::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1916247321437439005::1714541413::0::1::::<><>::res://Player/player.gd<>uid://lpjil5ewkuty::::res://Player/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Mickey2.png<>uid://dvi2y02xpnef8::::res://Player/Mickey3.png<>uid://0a36nmt4pb4c::::res://Player/Mickey4.png<>uid://dh7c05sv8ok68::::res://Player/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Mickey6.png
+player.gd::GDScript::-1::1714789579::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1916247321437439005::1714791796::0::1::::<><>::res://Player/player.gd<>uid://lpjil5ewkuty::::res://Player/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Mickey2.png<>uid://dvi2y02xpnef8::::res://Player/Mickey3.png<>uid://0a36nmt4pb4c::::res://Player/Mickey4.png<>uid://dh7c05sv8ok68::::res://Player/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Mickey6.png
 TaterTot.png::CompressedTexture2D::6882935235703637880::1714450966::1714451307::1::::<><>::
 tilesets.png::CompressedTexture2D::661958742579942621::1714443940::1714451204::1::::<><>::
-::res://Steam Boat Willy Platformer Game/::1714442261
-::res://tileset/::1714449398
+::res://Steam Boat Willy Platformer Game/::1714781637
+::res://Test/::1714786082
+::res://tileset/::1714781637
 player-idle.png::CompressedTexture2D::2261727978176316611::1714442361::1714442734::1::::<><>::
 player-jump.png::CompressedTexture2D::3335246447055274578::1713664288::1714442734::1::::<><>::
 player-run.png::CompressedTexture2D::2788127458529627879::1714442361::1714442734::1::::<><>::

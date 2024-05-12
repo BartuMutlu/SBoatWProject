@@ -1,4 +1,4 @@
-extends CharacterBody2D
+extends CharacterBody2D 
 
 #dragged and dropped while holding down command 
 @onready var animated_sprite_2d = $AnimatedSprite2D
@@ -28,7 +28,7 @@ func _physics_process(delta): #function for all player movement in sequential or
 	player_animations()
 
 func player_falling(delta): #function to create gravity 
-	if !is_on_floor(): #if character is not on the floor 
+	if !is_on_floor(): #if character is not on the floor nv
 		velocity.y += Gravity * delta  #gravity is declared up above 
 
  
@@ -53,7 +53,7 @@ func player_run(delta): #function to acess the inputs in order to move player
 		animated_sprite_2d.flip_h = false if direction > 0 else true #ternerary statement, if direction is greater than 0, set that false value to true, which then activates the "flip.h" statement which flips the sprite
 	
 func player_jump(delta):
-	if Input.is_action_just_pressed("jump"): #function takes the input and activates it if the player just presses it ( if this isnt here, player floats away
+	if Input.is_action_just_pressed("jump") and is_on_floor(): #function takes the input and activates it if the player just presses it ( if this isnt here, player floats away
 		velocity.y = Jump  
 		current_state = State.Jump
 		
@@ -74,3 +74,6 @@ func player_animations():
 		
 	elif current_state == State.Jump:
 		animated_sprite_2d.play("jump")
+
+
+
