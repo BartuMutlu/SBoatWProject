@@ -3,7 +3,7 @@ extends Node2D
 @onready var pause_menu = $Player/Camera2D/PauseMenu
 
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("pause"):
 		pauseMenu()
 

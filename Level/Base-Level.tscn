@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://behi4xckgmd6"]
+[gd_scene load_steps=20 format=3 uid="uid://behi4xckgmd6"]
 
 [ext_resource type="Texture2D" uid="uid://dbm3cypbfraoy" path="res://Level/basedock.png" id="1_m6otf"]
 [ext_resource type="Script" path="res://Level/Base-Level.gd" id="1_qwavq"]
@@ -8,8 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://2s6f2giifyu2" path="res://Level/dock4.png" id="4_q80ay"]
 [ext_resource type="Texture2D" uid="uid://be0vrrtwdlc03" path="res://Level/dock5.png" id="5_opbfy"]
 [ext_resource type="Texture2D" uid="uid://cm2u1xfkprvuy" path="res://Level/BackgroundWithWatermickeymania_wharf_bg-bw.png" id="7_82tv1"]
-[ext_resource type="PackedScene" uid="uid://c4hnbg6woa2hg" path="res://Enemies/Tater Tot.tscn" id="8_rpr2j"]
-[ext_resource type="PackedScene" uid="uid://btqh1pnvvh833" path="res://Pause Menu/PauseMenu.tscn" id="10_kmerg"]
+[ext_resource type="PackedScene" uid="uid://c4hnbg6woa2hg" path="res://Enemies/Tater Tot/Tater Tot.tscn" id="8_rpr2j"]
+[ext_resource type="PackedScene" uid="uid://btqh1pnvvh833" path="res://Menus/Pause Menu/PauseMenu.tscn" id="10_kmerg"]
+[ext_resource type="PackedScene" uid="uid://bwx64ldp14gxx" path="res://Enemies/Parrot/parrot.tscn" id="11_b56j1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3721s"]
 texture = ExtResource("1_m6otf")
@@ -4911,9 +4912,6 @@ position = Vector2(201, -106)
 [node name="Tater Tot3" parent="." instance=ExtResource("8_rpr2j")]
 position = Vector2(843, -203)
 
-[node name="Tater Tot4" parent="." instance=ExtResource("8_rpr2j")]
-position = Vector2(721, -205)
-
 [node name="Player" parent="." instance=ExtResource("2_erala")]
 position = Vector2(67, -85)
 
@@ -4933,3 +4931,6 @@ offset_right = -113.0
 offset_bottom = -75.0
 grow_horizontal = 1
 grow_vertical = 1
+
+[node name="Parrot" parent="." instance=ExtResource("11_b56j1")]
+position = Vector2(246, -224)

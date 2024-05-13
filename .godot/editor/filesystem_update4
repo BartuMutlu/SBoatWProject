@@ -1,3 +1,13 @@
-res://Pause Menu/PauseMenu.tscn
-res://Pause Menu/PauseMenu.gdshader
 res://Level/Base-Level.tscn
+res://Pause Menu/PauseMenu.gdshader
+res://Parrot.gd
+res://Enemies/parrot.tscn
+res://Enemies/Tater Tot.tscn
+res://Enemies/Tater Tot.gd
+res://Player/player.gd
+res://Player/player.tscn
+res://Menus/Pause Menu/PauseMenu.gdshader
+res://Enemies/Tater Tot/Tater Tot.tscn
+res://Enemies/Parrot/parrot.tscn
+res://Enemies/Tater Tot/Tater Tot.gd
+res://Level/Base-Level.gd

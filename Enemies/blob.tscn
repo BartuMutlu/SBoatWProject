@@ -1,6 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://d0m3guf1oo76p"]
 
-[ext_resource type="Texture2D" uid="uid://bfdrgl00omwri" path="res://Player/Parrot.png" id="1_wd6w7"]
+[ext_resource type="Texture2D" uid="uid://bfdrgl00omwri" path="res://Enemies/Parrot/Parrot.png" id="1_wd6w7"]
+
 
 [sub_resource type="GDScript" id="GDScript_k7426"]
 script/source = "extends CharacterBody2D
