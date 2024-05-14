@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715669059
+::res://::1715673002
 .CRT::X509Certificate::-1::1715567094::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1715567095::0::1::::<><>::
 font.tres::Theme::4692908142734650620::1715575496::0::1::::<><>::uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf
@@ -12,12 +12,12 @@ plugin.cfg::TextFile::-1::1715567095::0::1::::<><>::
 THIRDPARTY.md::TextFile::-1::1715567095::0::1::::<><>::
 ::res://addons/godot-git-plugin/linux/::1715567095
 ::res://addons/godot-git-plugin/macos/::1715567095
-::res://addons/godot-git-plugin/win64/::1715669054
+::res://addons/godot-git-plugin/win64/::1715672997
 ::res://Enemies/::1715578650
 blob.tscn::PackedScene::8940467525031363453::1715578644::0::1::::<><>::uid://bfdrgl00omwri::::res://Enemies/Parrot/Parrot.png
-::res://Enemies/Parrot/::1715669041
+::res://Enemies/Parrot/::1715671738
 Parrot.png::CompressedTexture2D::2744601556317955522::1715567094::1715578645::1::::<><>::
-parrot.tscn::PackedScene::3979990529980879205::1715669041::0::1::::<><>::res://Parrot.gd<>uid://bfdrgl00omwri::::res://Enemies/Parrot/Parrot.png
+parrot.tscn::PackedScene::3979990529980879205::1715671738::0::1::::<><>::res://Parrot.gd<>uid://bfdrgl00omwri::::res://Enemies/Parrot/Parrot.png
 ::res://Enemies/Parrot/Animations/::1715579095
 ::res://Enemies/Parrot/Animations/Fly/::1715579105
 parrotFlychoppy1.png::CompressedTexture2D::3100869893153376420::1715579105::1715579105::1::::<><>::
@@ -28,9 +28,9 @@ parrotFlychoppy5.png::CompressedTexture2D::4015363741300926655::1715579105::1715
 parrotFlychoppy6.png::CompressedTexture2D::3107061676321257647::1715579105::1715579105::1::::<><>::
 parrotFlychoppy7.png::CompressedTexture2D::2074465750565138508::1715579105::1715579105::1::::<><>::
 parrotFlychoppy8.png::CompressedTexture2D::5447710008077587736::1715579105::1715579105::1::::<><>::
-::res://Enemies/Tater Tot/::1715669041
+::res://Enemies/Tater Tot/::1715671738
 Tater Tot.gd::GDScript::-1::1715579619::0::1::::<>CharacterBody2D<>::
-Tater Tot.tscn::PackedScene::6823559947914785856::1715669041::0::1::::<><>::res://Enemies/Tater Tot/Tater Tot.gd<>uid://c5ce65aiqv3gu::::res://Enemies/Tater Tot/TaterTot.png
+Tater Tot.tscn::PackedScene::6823559947914785856::1715671738::0::1::::<><>::res://Enemies/Tater Tot/Tater Tot.gd<>uid://c5ce65aiqv3gu::::res://Enemies/Tater Tot/TaterTot.png
 TaterTot.png::CompressedTexture2D::6882935235703637880::1715567094::1715578651::1::::<><>::
 ::res://Enemies/Tater Tot/Animations/::1715578675
 ::res://Enemies/Tater Tot/Animations/Walk/::1715578690
@@ -42,11 +42,11 @@ TaterTotwalk5.png::CompressedTexture2D::7546940991005810713::1715578690::1715578
 TaterTotwalk6.png::CompressedTexture2D::1787788838193412362::1715578690::1715578690::1::::<><>::
 TaterTotwalk7.png::CompressedTexture2D::2305837711621305081::1715578690::1715578690::1::::<><>::
 TaterTotwalk8.png::CompressedTexture2D::8116617326214252400::1715578690::1715578690::1::::<><>::
-::res://Level/::1715669041
+::res://Level/::1715671738
 backgroundMickeyMania_steamboat_bg.png::CompressedTexture2D::6111844502733571988::1715567094::1715567094::1::::<><>::
 BackgroundWithWatermickeymania_wharf_bg-bw.png::CompressedTexture2D::5672107677135229068::1715567094::1715567094::1::::<><>::
 Base-Level.gd::GDScript::-1::1715579695::0::1::::<>Node2D<>::
-Base-Level.tscn::PackedScene::78887218767015685::1715669041::0::1::::<><>::uid://dbm3cypbfraoy::::res://Level/basedock.png<>res://Level/Base-Level.gd<>uid://5nenj7ia65it::::res://Level/boxPhysics.png<>uid://2kikwksg5ds4::::res://Player/player.tscn<>uid://o5sxwuqjg62s::::res://Level/dock3.png<>uid://2s6f2giifyu2::::res://Level/dock4.png<>uid://be0vrrtwdlc03::::res://Level/dock5.png<>uid://cm2u1xfkprvuy::::res://Level/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://c4hnbg6woa2hg::::res://Enemies/Tater Tot/Tater Tot.tscn<>uid://btqh1pnvvh833::::res://Menus/Pause Menu/PauseMenu.tscn<>uid://bwx64ldp14gxx::::res://Enemies/Parrot/parrot.tscn
+Base-Level.tscn::PackedScene::78887218767015685::1715671738::0::1::::<><>::uid://dbm3cypbfraoy::::res://Level/basedock.png<>res://Level/Base-Level.gd<>uid://5nenj7ia65it::::res://Level/boxPhysics.png<>uid://2kikwksg5ds4::::res://Player/player.tscn<>uid://o5sxwuqjg62s::::res://Level/dock3.png<>uid://2s6f2giifyu2::::res://Level/dock4.png<>uid://be0vrrtwdlc03::::res://Level/dock5.png<>uid://cm2u1xfkprvuy::::res://Level/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://c4hnbg6woa2hg::::res://Enemies/Tater Tot/Tater Tot.tscn<>uid://btqh1pnvvh833::::res://Menus/Pause Menu/PauseMenu.tscn<>uid://bwx64ldp14gxx::::res://Enemies/Parrot/parrot.tscn
 basedock.png::CompressedTexture2D::7255928358936579116::1715567094::1715567094::1::::<><>::
 Boatmickeymania_steamboat_wharf-pal.png::CompressedTexture2D::6571393038348846142::1715567094::1715567094::1::::<><>::
 boxPhysics.png::CompressedTexture2D::2132768825744207507::1715567094::1715567094::1::::<><>::
@@ -61,25 +61,25 @@ dock10.png::CompressedTexture2D::2443223971559838966::1715567094::1715567094::1:
 Tater Tot.gd::GDScript::-1::1715567094::0::1::::<>CharacterBody2D<>::
 Tile-Sets (64-64).png::CompressedTexture2D::7330570811504918139::1715567094::1715567094::1::::<><>::
 ::res://Menus/::1715575508
-::res://Menus/Credits/::1715575505
-Control.gd::GDScript::-1::1715567094::0::1::::<>Control<>::
-Credits.tscn::PackedScene::5710011836960481448::1715575505::0::1::::<><>::uid://vrtix0h8pcn4::::res://Menus/Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>res://Menus/Credits/Control.gd<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
-::res://Menus/HowToPlay/::1715575503
+::res://Menus/Credits/::1715670342
+Control.gd::GDScript::-1::1715670328::0::1::::<>Control<>::
+Credits.tscn::PackedScene::5710011836960481448::1715670342::0::1::::<><>::uid://vrtix0h8pcn4::::res://Menus/Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>res://Menus/Credits/Control.gd<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
+::res://Menus/HowToPlay/::1715670328
 HowToPlay.tscn::PackedScene::4019666511146948203::1715575503::0::1::::<><>::uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://vrtix0h8pcn4::::res://Menus/Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>res://Menus/HowToPlay/HTPControl.gd<>uid://b74jrni0uw4su::::res://font.tres
-HTPControl.gd::GDScript::-1::1715567094::0::1::::<>Control<>::
-::res://Menus/Main Menu/::1715575496
+HTPControl.gd::GDScript::-1::1715670328::0::1::::<>Control<>::
+::res://Menus/Main Menu/::1715670328
 BackgroundWithWatermickeymania_wharf_bg-bw.png::CompressedTexture2D::1510229294451401351::1715567094::1715575496::1::::<><>::
 icon.svg::CompressedTexture2D::263567389303774272::1715567094::1715575496::1::::<><>::
-Main Menu Control.gd::GDScript::-1::1715567094::0::1::::<>Control<>::
-MainMenu.tscn::PackedScene::8929200613769872306::1715575496::0::1::::<><>::res://Menus/Main Menu/Main Menu Control.gd<>uid://vrtix0h8pcn4::::res://Menus/Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
+Main Menu Control.gd::GDScript::-1::1715670193::0::1::::<>Control<>::
+MainMenu.tscn::PackedScene::8929200613769872306::1715670328::0::1::::<><>::res://Menus/Main Menu/Main Menu Control.gd<>uid://vrtix0h8pcn4::::res://Menus/Main Menu/BackgroundWithWatermickeymania_wharf_bg-bw.png<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
 MonkeyFingersNF.ttf::FontFile::2321760625645120675::1715567094::1715575496::1::::<><>::
-::res://Menus/Pause Menu/::1715669041
-PauseMenu.gd::GDScript::-1::1715567094::0::1::::<>Control<>::
-PauseMenu.gdshader::Shader::-1::1715669041::0::1::::<><>::
-PauseMenu.tscn::PackedScene::3753511015386796096::1715669041::0::1::::<><>::res://Menus/Pause Menu/PauseMenu.gd<>res://Menus/Pause Menu/PauseMenu.gdshader<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
-::res://Player/::1715669041
-player.gd::GDScript::-1::1715579695::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1916247321437439005::1715669041::0::1::::<><>::res://Player/player.gd<>uid://d0uwuvon8g6dw::::res://Player/Animations/Attack/MickeyPunch1.png<>uid://lpjil5ewkuty::::res://Player/Animations/Idle/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Animations/Idle/Mickey2.png<>uid://d026ac0g16mbc::::res://Player/Animations/Attack/MickeyPunch3.png<>uid://dvi2y02xpnef8::::res://Player/Animations/Idle/Mickey3.png<>uid://01rik7fic8e6::::res://Player/Animations/Attack/MickeyPunch4.png<>uid://0a36nmt4pb4c::::res://Player/Animations/Idle/Mickey4.png<>uid://xuqtik5spro::::res://Player/Animations/Attack/MickeyPunch5.png<>uid://dh7c05sv8ok68::::res://Player/Animations/Idle/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Animations/Idle/Mickey6.png<>uid://bxf80cwt0uxs5::::res://Player/Animations/Attack/MickeyPunch6.png<>uid://7a07s5lxwgpp::::res://Player/Animations/Jump/MickeyJump1.png<>uid://sen4st2wdccj::::res://Player/Animations/Jump/MickeyJump2.png<>uid://cleixjgtl7der::::res://Player/Animations/Jump/MickeyJump3.png<>uid://hbgv4khh2xeq::::res://Player/Animations/Jump/MickeyJump4.png<>uid://dttu2wd0c5704::::res://Player/Animations/Jump/MickeyJump5.png<>uid://bsgcotefxmhat::::res://Player/Animations/Jump/MickeyJump6.png<>uid://sn20s2dmyapi::::res://Player/Animations/Jump/MickeyJump7.png<>uid://chesfcqsbdifx::::res://Player/Animations/Jump/MickeyJump8.png<>uid://g5g0hsj85pfw::::res://Player/Animations/Jump/MickeyJump9.png<>uid://b4l8d52lw5043::::res://Player/Animations/Jump/MickeyJump10.png<>uid://dj2ajcqijx5tf::::res://Player/Animations/Run/Mickey1.png<>uid://b801insjph3d6::::res://Player/Animations/Run/Mickey2.png<>uid://caocj8r1ie1ku::::res://Player/Animations/Run/Mickey3.png<>uid://dt68wxo7pwsw6::::res://Player/Animations/Run/Mickey4.png<>uid://cfb1g6fti8cmd::::res://Player/Animations/Run/Mickey5.png<>uid://g0v0fdr7uu1w::::res://Player/Animations/Run/Mickey6.png<>uid://ptc8xb4wc0eg::::res://Player/Animations/Run/Mickey7.png<>uid://cuin6sjoya2vy::::res://Player/Animations/Run/Mickey8.png<>uid://cp0fv6r521th4::::res://Player/Animations/Run/Mickey9.png<>uid://1rp8jcgs85dr::::res://Player/Animations/Run/Mickey10.png
+::res://Menus/Pause Menu/::1715671832
+PauseMenu.gd::GDScript::-1::1715669999::0::1::::<>Control<>::
+PauseMenu.gdshader::Shader::-1::1715671832::0::1::::<><>::
+PauseMenu.tscn::PackedScene::3753511015386796096::1715670328::0::1::::<><>::res://Menus/Pause Menu/PauseMenu.gd<>res://Menus/Pause Menu/PauseMenu.gdshader<>uid://8cxb8nch4s1p::::res://Menus/Main Menu/MonkeyFingersNF.ttf<>uid://b74jrni0uw4su::::res://font.tres
+::res://Player/::1715671738
+player.gd::GDScript::-1::1715671175::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1916247321437439005::1715671738::0::1::::<><>::res://Player/player.gd<>uid://d0uwuvon8g6dw::::res://Player/Animations/Attack/MickeyPunch1.png<>uid://lpjil5ewkuty::::res://Player/Animations/Idle/Mickey1.png<>uid://ummtwsi6s5o1::::res://Player/Animations/Idle/Mickey2.png<>uid://d026ac0g16mbc::::res://Player/Animations/Attack/MickeyPunch3.png<>uid://dvi2y02xpnef8::::res://Player/Animations/Idle/Mickey3.png<>uid://01rik7fic8e6::::res://Player/Animations/Attack/MickeyPunch4.png<>uid://0a36nmt4pb4c::::res://Player/Animations/Idle/Mickey4.png<>uid://xuqtik5spro::::res://Player/Animations/Attack/MickeyPunch5.png<>uid://dh7c05sv8ok68::::res://Player/Animations/Idle/Mickey5.png<>uid://ddkaulu4owyfr::::res://Player/Animations/Idle/Mickey6.png<>uid://bxf80cwt0uxs5::::res://Player/Animations/Attack/MickeyPunch6.png<>uid://7a07s5lxwgpp::::res://Player/Animations/Jump/MickeyJump1.png<>uid://sen4st2wdccj::::res://Player/Animations/Jump/MickeyJump2.png<>uid://cleixjgtl7der::::res://Player/Animations/Jump/MickeyJump3.png<>uid://hbgv4khh2xeq::::res://Player/Animations/Jump/MickeyJump4.png<>uid://dttu2wd0c5704::::res://Player/Animations/Jump/MickeyJump5.png<>uid://bsgcotefxmhat::::res://Player/Animations/Jump/MickeyJump6.png<>uid://sn20s2dmyapi::::res://Player/Animations/Jump/MickeyJump7.png<>uid://chesfcqsbdifx::::res://Player/Animations/Jump/MickeyJump8.png<>uid://g5g0hsj85pfw::::res://Player/Animations/Jump/MickeyJump9.png<>uid://b4l8d52lw5043::::res://Player/Animations/Jump/MickeyJump10.png<>uid://dj2ajcqijx5tf::::res://Player/Animations/Run/Mickey1.png<>uid://b801insjph3d6::::res://Player/Animations/Run/Mickey2.png<>uid://caocj8r1ie1ku::::res://Player/Animations/Run/Mickey3.png<>uid://dt68wxo7pwsw6::::res://Player/Animations/Run/Mickey4.png<>uid://cfb1g6fti8cmd::::res://Player/Animations/Run/Mickey5.png<>uid://g0v0fdr7uu1w::::res://Player/Animations/Run/Mickey6.png<>uid://ptc8xb4wc0eg::::res://Player/Animations/Run/Mickey7.png<>uid://cuin6sjoya2vy::::res://Player/Animations/Run/Mickey8.png<>uid://cp0fv6r521th4::::res://Player/Animations/Run/Mickey9.png<>uid://1rp8jcgs85dr::::res://Player/Animations/Run/Mickey10.png
 ::res://Player/Animations/::1715576285
 ::res://Player/Animations/Attack/::1715575678
 MickeyPunch1.png::CompressedTexture2D::8956643312082914648::1715575673::1715575678::1::::<><>::

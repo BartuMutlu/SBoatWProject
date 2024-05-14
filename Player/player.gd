@@ -8,6 +8,9 @@ const Gravity = 1000
 @export var Speed: int  = 300 
 @export var Jump: int  = -300 #the y axis is inversed for some reason 
 @export var attacking = false
+const dashSpeed = 750.0
+var dashing = false
+var canDash = true
 
 enum State{Idle, Run, Jump} #
 
@@ -15,6 +18,7 @@ var current_state
 
 func _ready(): #will be called in the very beginning and is called only once 
 	current_state = State.Idle 
+
 
 func _physics_process(delta): #function for all player movement in sequential order 
 	player_falling(delta)
@@ -26,9 +30,12 @@ func _physics_process(delta): #function for all player movement in sequential or
 	move_and_slide()
 	
 	player_animations()
+	
+	if Input.is_action_just_pressed("dash") and canDash:
+		dash()
 
 func player_falling(delta): #function to create gravity 
-	if !is_on_floor(): #if character is not on the floor 
+	if !is_on_floor() && !dashing: #if character is not on the floor and dashing
 		velocity.y += Gravity * delta  #gravity is declared up above 
 
  
@@ -46,7 +53,10 @@ func player_run(_delta): #function to acess the inputs in order to move player
 	
 	
 	if direction: 
-		velocity.x = direction * Speed
+		if dashing:
+			velocity.x = direction * dashSpeed
+		else:
+			velocity.x = direction * Speed
 	else: 
 		velocity.x = move_toward(velocity.x, 0 , Speed)
 	
@@ -68,7 +78,17 @@ func jump():
 	animated_sprite_2d.play("jump")
 	await get_tree().create_timer(1).timeout
 
+func dash():
+	canDash = false
+	dashing = true
+	await get_tree().create_timer(.1).timeout
+	dashing = false
+	await get_tree().create_timer(.5).timeout
+	canDash = true
 
+func _dash(_delta):
+	if Input.is_action_just_pressed("dash"):
+		dash()
 
 func _process(_delta):
 	if Input.is_action_just_pressed("attack"):
