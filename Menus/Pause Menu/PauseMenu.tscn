@@ -5,7 +5,6 @@
 [ext_resource type="FontFile" uid="uid://8cxb8nch4s1p" path="res://Menus/Main Menu/MonkeyFingersNF.ttf" id="3_4rpbi"]
 [ext_resource type="Theme" uid="uid://b74jrni0uw4su" path="res://font.tres" id="3_fyccp"]
 
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o4qbd"]
 shader = ExtResource("2_grh22")
 shader_parameter/blur = 1.469
@@ -26,10 +25,10 @@ script = ExtResource("1_y4jgm")
 [node name="ColorRect" type="ColorRect" parent="."]
 material = SubResource("ShaderMaterial_o4qbd")
 layout_mode = 0
-offset_left = -1053.0
-offset_top = -507.0
-offset_right = 1019.0
-offset_bottom = 775.0
+offset_left = -917.0
+offset_top = -492.0
+offset_right = 1155.0
+offset_bottom = 790.0
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2

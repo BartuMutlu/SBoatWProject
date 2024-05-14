@@ -5,7 +5,6 @@
 [ext_resource type="FontFile" uid="uid://8cxb8nch4s1p" path="res://Menus/Main Menu/MonkeyFingersNF.ttf" id="1_th480"]
 [ext_resource type="Theme" uid="uid://b74jrni0uw4su" path="res://font.tres" id="2_d6h7r"]
 
-
 [sub_resource type="Theme" id="Theme_skg4q"]
 
 [sub_resource type="Theme" id="Theme_oxkkw"]
@@ -35,6 +34,7 @@ offset_right = 725.0
 offset_bottom = 511.0
 
 [node name="GameTitle" type="Label" parent="Main Menu Control"]
+layout_mode = 0
 offset_left = 274.0
 offset_top = 71.0
 offset_right = 946.0
@@ -45,6 +45,7 @@ text = "Steamboat Willie Game Project
             Tentative Name"
 
 [node name="StartButton" type="Button" parent="Main Menu Control"]
+layout_mode = 0
 offset_left = 547.0
 offset_top = 231.0
 offset_right = 639.0
@@ -54,6 +55,7 @@ theme_override_colors/font_color = Color(0, 0.627451, 1, 1)
 text = "Start"
 
 [node name="CreditsButton" type="Button" parent="Main Menu Control"]
+layout_mode = 0
 offset_left = 534.0
 offset_top = 374.0
 offset_right = 664.0
@@ -63,6 +65,7 @@ theme_override_colors/font_color = Color(0, 0.627451, 1, 1)
 text = "Credits"
 
 [node name="HTPButton" type="Button" parent="Main Menu Control"]
+layout_mode = 0
 offset_left = 488.0
 offset_top = 305.0
 offset_right = 703.0
@@ -72,6 +75,7 @@ theme_override_colors/font_color = Color(0, 0.627451, 1, 1)
 text = "How To Play"
 
 [node name="Quit" type="Button" parent="Main Menu Control"]
+layout_mode = 0
 offset_left = 557.0
 offset_top = 444.0
 offset_right = 637.0

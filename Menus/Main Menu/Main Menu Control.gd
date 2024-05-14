@@ -17,10 +17,10 @@ func _on_startbutton_pressed():
 	get_tree().change_scene_to_file("res://Level/Base-Level.tscn")
 
 func _on_htpbutton_pressed():
-	get_tree().change_scene_to_file("res://HowToPlay/HowToPlay.tscn")
+	get_tree().change_scene_to_file("res://Menus/HowToPlay/HowToPlay.tscn")
 
 func _on_creditsbutton_pressed():
-	get_tree().change_scene_to_file("res://Credits/Credits.tscn")
+	get_tree().change_scene_to_file("res://Menus/Credits/Credits.tscn")
 
 func _on_quitbutton_pressed():
 	get_tree().quit()
