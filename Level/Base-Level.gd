@@ -2,10 +2,10 @@ extends Node2D
 
 @onready var pause_menu = $Player/Camera2D/PauseMenu
 
-
 func _process(_delta):
 	if Input.is_action_just_pressed("pause"):
 		pauseMenu()
+		
 
 func pauseMenu():
 	if get_tree().paused == true:
@@ -18,5 +18,6 @@ func pauseMenu():
 		pause_menu.show()
 
 
-
-
+func _on_area_2d_body_entered(body):
+	if body.name == "Player":
+		print("body entered")

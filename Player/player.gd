@@ -1,7 +1,7 @@
 extends CharacterBody2D
 #dragged and dropped while holding down command 
 @onready var animated_sprite_2d = $AnimatedSprite2D
-
+@onready var Player = $"."
 #All constant directional variabbles 
 const Gravity = 1000
 #@export var makes this a Dynamic Variable which we can now easily change on "player.gd" 
@@ -20,12 +20,13 @@ func _ready(): #will be called in the very beginning and is called only once
 	current_state = State.Idle 
 
 
+
 func _physics_process(delta): #function for all player movement in sequential order 
 	player_falling(delta)
 	player_Idle(delta)
 	player_run(delta)
 	player_jump(delta)
-	print ("State: ", State.keys()[current_state])  #Displays the state the player is in on "Output" 
+	#print ("State: ", State.keys()[current_state])  #Displays the state the player is in on "Output" 
 	
 	move_and_slide()
 	

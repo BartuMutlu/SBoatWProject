@@ -1,7 +1,14 @@
 res://Level/Base-Level.tscn
 res://Menus/Pause Menu/PauseMenu.gdshader
-res://Player/player.gd
 res://Enemies/Parrot/parrot.tscn
 res://Enemies/Tater Tot/Tater Tot.tscn
 res://Player/player.tscn
-res://Parrot.gd
+res://Menus/Pause Menu/PauseMenu.tscn
+res://Menus/You Win/youWin.tscn
+res://Level/flag.tscn
+res://Level/flag.gd
+res://Level/Win.gd
+res://WinFlag.gd
+res://Level/Flagfr.tscn
+res://Player/player.gd
+res://Level/Base-Level.gd
